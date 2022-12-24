@@ -140,6 +140,13 @@ body {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                transform: scaleY(0);
+                transform-origin: top;
+                transition: 1s ease-in-out;
+
+                &.error-active{
+                    transform: scaleY(1);
+                }
 
 
                 p{
@@ -159,6 +166,8 @@ body {
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
+                margin-top: 0;
+                transition: margin-top 1s ease-in-out;
 
                 &.an-error{
                     margin-top: 64px;

@@ -1,6 +1,6 @@
 <template>
 	<div class="container">
-		<div class="error" v-if="errorChecker">
+		<div class="error" :class="errorChecker == true ? 'error-active': ''" v-show="errorChecker">
 			<p>README ni o'qing va ma'lumotlar bazasini ishga tushiring</p>
 		</div>
 		<div class="product-filter" :class="errorChecker == true ? 'an-error': ''">
@@ -68,13 +68,20 @@ export default {
 			Services.getProducts(query)
 			.then(res => {
 				 if (res.status == 200) {
-					this.products = res.data;console.log(res.headers['x-total-count'])
+					this.products = res.data;
 					this.pagination = res.headers.link;
 					this.total = +res.headers["x-total-count"];
 					this.errorChecker = false
 					// console.log('total', this.total)
 				 }
-			}).catch(err => {if(err){this.errorChecker = true, console.log(err)}})
+			}).catch(err => {if(err){
+				this.errorChecker = true
+				setTimeout(() => {
+					this.errorChecker = false
+				}, 6000)
+				// this.errorChecker = true
+				
+				, console.log(err)}})
 		},
 		getQueryParams(page, reset) {
 			// console.log('query', page, reset)

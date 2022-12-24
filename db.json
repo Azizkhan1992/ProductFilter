@@ -31,7 +31,7 @@
     {
       "id": 2,
       "title": "Asus X255",
-      "img": "/img/laptop.gif",
+      "img": "/img/lenovo.jpg",
       "price": 320,
       "art_number": 200002,
       "brand": "Asus",
@@ -42,7 +42,7 @@
     {
       "id": 3,
       "title": "Samsung A500",
-      "img": "/img/laptop.gif",
+      "img": "/img/lenovo.png",
       "price": 530,
       "art_number": 200003,
       "brand": "Samsung",
@@ -64,7 +64,7 @@
     {
       "id": 5,
       "title": "Asus 550 AB",
-      "img": "/img/laptop.gif",
+      "img": "/img/lenovo.jpg",
       "price": 600,
       "art_number": 200005,
       "brand": "Asus",
@@ -75,7 +75,7 @@
     {
       "id": 6,
       "title": "Lenovo 500X",
-      "img": "/img/laptop.gif",
+      "img": "/img/lenovo.png",
       "price": 700,
       "art_number": 200006,
       "brand": "Lenovo",
@@ -97,7 +97,7 @@
     {
       "id": 8,
       "title": "Lenovo 900 XX",
-      "img": "/img/laptop.gif",
+      "img": "/img/lenovo.jpg",
       "price": 500,
       "art_number": 200008,
       "brand": "Lenovo",
@@ -119,7 +119,7 @@
     {
       "id": 10,
       "title": "Samsung 450 AA",
-      "img": "/img/laptop.gif",
+      "img": "/img/lenovo.png",
       "price": 500,
       "art_number": 200010,
       "brand": "Samsung",
@@ -141,7 +141,7 @@
     {
       "id": 12,
       "title": "HP 900 XX",
-      "img": "/img/laptop.gif",
+      "img": "/img/lenovo.jpg",
       "price": 550,
       "art_number": 200012,
       "brand": "Lenovo",
@@ -163,7 +163,7 @@
     {
       "id": 9,
       "title": "Asus 330 OO",
-      "img": "/img/laptop.gif",
+      "img": "/img/lenovo.png",
       "price": 660,
       "art_number": 200014,
       "brand": "Asus",

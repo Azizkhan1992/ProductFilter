@@ -43,6 +43,7 @@ export default {
 			Service.getProduct(id)
 			.then(res => {
 				this.data = res.data;
+				// console.log(this.data)
 			}, error => console.log(error));
 		}
 	}
