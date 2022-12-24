@@ -1,0 +1,175 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    {
+      "id": 1,
+      "title": "Motorola 156 MX-VL",
+      "img": "/img/laptop.gif",
+      "price": 270,
+      "art_number": 200001,
+      "brand": "Motorola",
+      "weight": 500,
+      "quantity": 20,
+      "has_in_stock": true
+    },
+    {
+      "id": 2,
+      "title": "Asus X255",
+      "img": "/img/laptop.gif",
+      "price": 320,
+      "art_number": 200002,
+      "brand": "Asus",
+      "weight": 450,
+      "quantity": 30,
+      "has_in_stock": true
+    },
+    {
+      "id": 3,
+      "title": "Samsung A500",
+      "img": "/img/laptop.gif",
+      "price": 530,
+      "art_number": 200003,
+      "brand": "Samsung",
+      "weight": 350,
+      "quantity": 15,
+      "has_in_stock": true
+    },
+    {
+      "id": 4,
+      "title": "Samsung S35",
+      "img": "/img/laptop.gif",
+      "price": 500,
+      "art_number": 200004,
+      "brand": "Samsung",
+      "weight": 600,
+      "quantity": 55,
+      "has_in_stock": true
+    },
+    {
+      "id": 5,
+      "title": "Asus 550 AB",
+      "img": "/img/laptop.gif",
+      "price": 600,
+      "art_number": 200005,
+      "brand": "Asus",
+      "weight": 700,
+      "quantity": 60,
+      "has_in_stock": true
+    },
+    {
+      "id": 6,
+      "title": "Lenovo 500X",
+      "img": "/img/laptop.gif",
+      "price": 700,
+      "art_number": 200006,
+      "brand": "Lenovo",
+      "weight": 550,
+      "quantity": 20,
+      "has_in_stock": true
+    },
+    {
+      "id": 7,
+      "title": "Lenovo 800AA",
+      "img": "/img/laptop.gif",
+      "price": 500,
+      "art_number": 200007,
+      "brand": "Lenovo",
+      "weight": 400,
+      "quantity": 20,
+      "has_in_stock": true
+    },
+    {
+      "id": 8,
+      "title": "Lenovo 900 XX",
+      "img": "/img/laptop.gif",
+      "price": 500,
+      "art_number": 200008,
+      "brand": "Lenovo",
+      "weight": 580,
+      "quantity": 56,
+      "has_in_stock": false
+    },
+    {
+      "id": 9,
+      "title": "Asus 660 XX",
+      "img": "/img/laptop.gif",
+      "price": 800,
+      "art_number": 200009,
+      "brand": "Asus",
+      "weight": 650,
+      "quantity": 25,
+      "has_in_stock": false
+    },
+    {
+      "id": 10,
+      "title": "Samsung 450 AA",
+      "img": "/img/laptop.gif",
+      "price": 500,
+      "art_number": 200010,
+      "brand": "Samsung",
+      "weight": 580,
+      "quantity": 56,
+      "has_in_stock": false
+    },
+    {
+      "id": 11,
+      "title": "Motorola 900 SS",
+      "img": "/img/laptop.gif",
+      "price": 500,
+      "art_number": 200011,
+      "brand": "Lenovo",
+      "weight": 580,
+      "quantity": 56,
+      "has_in_stock": true
+    },
+    {
+      "id": 12,
+      "title": "HP 900 XX",
+      "img": "/img/laptop.gif",
+      "price": 550,
+      "art_number": 200012,
+      "brand": "Lenovo",
+      "weight": 600,
+      "quantity": 25,
+      "has_in_stock": true
+    },
+    {
+      "id": 13,
+      "title": "Asus 220 PP",
+      "img": "/img/laptop.gif",
+      "price": 800,
+      "art_number": 200013,
+      "brand": "Asus",
+      "weight": 630,
+      "quantity": 30,
+      "has_in_stock": true
+    },
+    {
+      "id": 9,
+      "title": "Asus 330 OO",
+      "img": "/img/laptop.gif",
+      "price": 660,
+      "art_number": 200014,
+      "brand": "Asus",
+      "weight": 770,
+      "quantity": 36,
+      "has_in_stock": false
+    }
+  ]
+}
